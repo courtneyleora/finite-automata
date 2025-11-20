@@ -60,6 +60,8 @@ def show_run_steps(dfa, start_state, input_string):
         state, rem = cfg
         if rem == "":
             break
+    # print the final configuration with empty string
+    print((state, ""))
 
 
 # c) acceptance using the stepping function
